@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Умывающийся Панда — профессиональный уход за лицом в Екатеринбурге</title>
+  <meta name="description" content="FACE WASH BEAR в Екатеринбурге: бережный уход за лицом без инъекций. ТЦ Дирижабль, ул. Академика Шварца, 17. Запись: +7 (919) 382-75-37.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            orange: {
+              50: "#fff7f1",
+              100: "#ffefe4",
+              200: "#ffd8c2",
+              300: "#ffb894",
+              400: "#ff9448",
+              500: "#f97316",
+              600: "#ea6a12",
+              700: "#c2410c",
+              800: "#9a3412"
+            },
+            ink: "#2a1c14"
+          },
+          fontFamily: {
+            serif: ["Cormorant Garamond", "serif"],
+            sans: ["Manrope", "sans-serif"]
+          },
+          maxWidth: {
+            site: "1180px"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="font-sans antialiased">
+  <header id="header" class="site-header fixed inset-x-0 top-0 z-50">
+    <div class="mx-auto flex max-w-site items-center justify-between gap-4 px-5 py-4 lg:px-8">
+      <a href="#hero" class="flex shrink-0 items-center gap-3">
+        <!-- Логотип салона: загрузите файл images/logo.png (квадрат 160×160, прозрачный фон, панда/название бренда) -->
+        <img
+          src="images/logo.png"
+          onerror="this.onerror=null;this.src='https://picsum.photos/seed/facewashbear-logo/160/160'"
+          alt="Логотип салона Умывающийся Панда"
+          class="h-11 w-11 rounded-full object-cover ring-1 ring-orange-200"
+        >
+        <span class="leading-tight">
+          <span class="block text-[11px] uppercase tracking-[0.22em] text-orange-700">Face Wash Bear</span>
+          <span class="block font-serif text-lg font-semibold text-ink">Умывающийся Панда</span>
+        </span>
+      </a>
+
+      <nav class="hidden items-center gap-8 lg:flex" aria-label="Основное меню">
+        <a data-nav href="#about" class="nav-link text-sm text-ink/80 hover:text-ink">О нас</a>
+        <a data-nav href="#benefits" class="nav-link text-sm text-ink/80 hover:text-ink">Преимущества</a>
+        <a data-nav href="#services" class="nav-link text-sm text-ink/80 hover:text-ink">Услуги</a>
+        <a data-nav href="#reviews" class="nav-link text-sm text-ink/80 hover:text-ink">Отзывы</a>
+        <a data-nav href="#contacts" class="nav-link text-sm text-ink/80 hover:text-ink">Контакты</a>
+      </nav>
+
+      <div class="hidden items-center gap-3 lg:flex">
+        <a href="tel:+79193827537" class="phone-link text-sm font-medium text-ink">+7 (919) 382-75-37</a>
+        <a href="#map" class="rounded-full border border-orange-300 px-5 py-2.5 text-sm font-medium text-orange-800 transition hover:bg-orange-100">
+          Как доехать
+        </a>
+        <a href="#order-form" class="btn-primary rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">
+          Записаться
+        </a>
+      </div>
+
+      <button id="burger" class="burger flex h-11 w-11 flex-col items-center justify-center gap-1.5 rounded-full border border-orange-200 bg-white/80 lg:hidden" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu absolute inset-x-4 top-[84px] rounded-3xl border border-orange-100 bg-white/95 p-6 shadow-xl shadow-orange-800/5 backdrop-blur-xl lg:hidden">
+      <nav class="flex flex-col gap-4 text-base" aria-label="Мобильное меню">
+        <a href="#about">О нас</a>
+        <a href="#benefits">Преимущества</a>
+        <a href="#services">Услуги</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="mt-6 grid gap-3">
+        <a href="tel:+79193827537" class="phone-link text-center text-base font-medium text-ink">+7 (919) 382-75-37</a>
+        <a href="#map" class="rounded-full border border-orange-300 px-5 py-3 text-center text-sm font-medium">Как доехать</a>
+        <a href="#order-form" class="rounded-full bg-orange-700 px-5 py-3 text-center text-sm font-semibold text-white">Записаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="relative overflow-hidden px-5 pb-20 pt-32 lg:px-8 lg:pb-28 lg:pt-40">
+      <div class="hero-orb pointer-events-none absolute -left-24 top-10 h-72 w-72 rounded-full bg-orange-200/70 blur-3xl"></div>
+      <div class="hero-orb pointer-events-none absolute right-0 top-40 h-80 w-80 rounded-full bg-orange-100 blur-3xl"></div>
+
+      <div class="mx-auto grid max-w-site items-center gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
+        <div>
+          <p class="mb-5 inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-xs uppercase tracking-[0.18em] text-orange-700 ring-1 ring-orange-200">
+            Екатеринбург · ТЦ «Дирижабль»
+          </p>
+          <h1 class="relative z-10 max-w-xl font-serif text-4xl font-bold leading-[1.12] text-ink sm:text-5xl lg:text-[3.4rem]">
+            Умывающийся панда
+          </h1>
+          <p class="relative z-10 mt-6 max-w-lg text-base leading-relaxed text-ink sm:text-lg">
+            Смарт-косметология FACE WASH BEAR в Екатеринбурге. Профессиональный уход за лицом без уколов, боли и синяков. Идеальный тон и гладкая сияющая кожа за 40 минут.
+          </p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a href="tel:+79193827537" class="btn-primary inline-flex items-center justify-center rounded-full bg-orange-700 px-7 py-3.5 text-sm font-semibold text-white">
+              Записаться
+            </a>
+            <a href="#services" class="inline-flex items-center justify-center rounded-full px-7 py-3.5 text-sm font-medium text-orange-800 ring-1 ring-orange-300 hover:bg-white">
+              Смотреть услуги
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-photo relative">
+          <div class="absolute -left-6 -top-6 h-28 w-28 rounded-full bg-orange-200/80 blur-2xl"></div>
+          <!-- Главное фото Hero: images/hero-bg.jpg — сыворотка и панда, оранжевый фон -->
+          <div class="overflow-hidden rounded-[2.2rem] bg-orange-100 shadow-[0_30px_80px_rgba(194,65,12,0.14)]">
+            <img
+              src="images/hero-bg.jpg"
+              alt="Сыворотка FACE WASH BEAR"
+              class="h-[420px] w-full object-cover lg:h-[540px]"
+            >
+          </div>
+          <div class="absolute -bottom-5 left-6 rounded-2xl bg-white/90 px-5 py-4 shadow-lg shadow-orange-800/10 backdrop-blur">
+            <p class="text-xs uppercase tracking-[0.16em] text-orange-700">Без инъекций</p>
+            <p class="font-serif text-xl text-ink">Только забота о коже</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto grid max-w-site items-center gap-14 lg:grid-cols-2">
+        <div class="reveal">
+          <h2 class="font-serif text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
+            FACE WASH BEAR: Система безупречности, доведенная до абсолюта
+          </h2>
+          <p class="mt-4 font-serif text-xl font-semibold leading-snug text-orange-700 sm:text-2xl">
+            Мировой формат смарт-ухода за кожей — теперь в Екатеринбурге.
+          </p>
+          <div class="mt-7 space-y-5 text-base leading-relaxed text-ink/80">
+            <p>
+              Секрет идеальной кожи — это не генетика, а выверенная система ухода, взятая из опыта мировых мегаполисов. Мы полностью отказались от малоэффективных домашних гаджетов и хаотичного подбора средств в пользу научно доказанной био-эффективности.
+            </p>
+            <p>
+              Наша комплексная программа — это абсолютная синергия природы и передовых азиатских технологий, где все процедуры проводятся исключительно с использованием премиальных средств:
+            </p>
+          </div>
+          <ul id="benefits" class="mt-6 list-disc space-y-4 pl-5 text-base leading-relaxed text-ink/80">
+            <li>
+              <strong class="font-semibold text-ink">Ферментированная органика премиум-класса:</strong> натуральные компоненты (экстракты центеллы азиатской, зеленого чая, редких водорослей и масел) усилены гиалуроновой кислотой разного молекулярного веса и умными пептидами.
+            </li>
+            <li>
+              <strong class="font-semibold text-ink">Высокотехнологичный Smart-уход:</strong> полноценный фитнес и SPA-перезагрузка для вашего лица, пока вы отдыхаете в эргономичном кресле.
+            </li>
+            <li>
+              <strong class="font-semibold text-ink">WOW-эффект без капли боли:</strong> безопасная альтернатива болезненным чисткам и агрессивным методикам. Мощный результат, чистота и сияние лица здесь и сейчас — без реабилитации, покраснений и синяков.
+            </li>
+          </ul>
+          <p class="mt-8 font-serif text-lg font-bold italic leading-snug text-orange-800 sm:text-xl">
+            Заберите свой премиум-визит прямо сейчас и протестируйте мировой формат смарт-ухода под ключ.
+          </p>
+          <a href="https://vk.ru/club237378703" target="_blank" rel="noopener noreferrer" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">
+            Подписаться на VK
+          </a>
+        </div>
+        <div class="about-visual reveal overflow-hidden rounded-[2rem]">
+          <!-- Фото раздела «О бренде»: images/about-brand.png -->
+          <img
+            src="images/about-brand.png"
+            alt="Уход за лицом FACE WASH BEAR"
+            class="about-photo h-[520px] w-full object-cover"
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="bg-white/60 px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto max-w-3xl">
+        <h2 class="text-center font-serif text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
+          Почему выбирают именно нас
+        </h2>
+
+        <ul class="utp-list mt-12 space-y-8">
+          <li class="utp-item flex items-start gap-4 sm:gap-5">
+            <!-- Иконка панды для Эффективности -->
+            <span class="utp-icon-wrap">
+              <img src="images/utp-effectiveness.png" alt="" class="utp-icon">
+            </span>
+            <div>
+              <h3 class="font-serif text-xl font-bold sm:text-2xl">Эффективность</h3>
+              <p class="mt-2 text-base leading-relaxed text-ink/80">Достижение видимых результатов без необходимости болезненных процедур.</p>
+            </div>
+          </li>
+          <li class="utp-item flex items-start gap-4 sm:gap-5">
+            <!-- Иконка панды для Безопасности -->
+            <span class="utp-icon-wrap">
+              <img src="images/utp-safety.png" alt="" class="utp-icon">
+            </span>
+            <div>
+              <h3 class="font-serif text-xl font-bold sm:text-2xl">Безопасность</h3>
+              <p class="mt-2 text-base leading-relaxed text-ink/80">Мягкий и деликатный уход, минимизирующий риск раздражений и аллергических реакций.</p>
+            </div>
+          </li>
+          <li class="utp-item flex items-start gap-4 sm:gap-5">
+            <!-- Иконка панды для Удобства -->
+            <span class="utp-icon-wrap">
+              <img src="images/utp-convenience.png" alt="" class="utp-icon">
+            </span>
+            <div>
+              <h3 class="font-serif text-xl font-bold sm:text-2xl">Удобство</h3>
+              <p class="mt-2 text-base leading-relaxed text-ink/80">Готовое решение для тех, у кого нет времени на долгие домашние эксперименты. Профессиональный комплексный уход под ключ в уютной атмосфере нашего салона.</p>
+            </div>
+          </li>
+        </ul>
+
+        <p class="utp-cta mt-12 text-center font-serif text-lg font-bold leading-snug text-orange-800 sm:text-xl lg:text-2xl">
+          Хватит маскировать проблемы — пора влюбить себя в собственное отражение. Позвольте вашей коже дышать в ритме большого города под защитой FACE WASH BEAR. Запишитесь на первый смарт-уход и ощутите WOW-эффект уже сегодня!
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto max-w-site">
+        <div class="reveal mx-auto max-w-3xl text-center">
+          <h2 class="font-serif text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">Наши услуги</h2>
+          <p class="mt-5 text-base leading-relaxed text-ink/70">Пять направлений ухода — от очищения до лифтинга и точечных методик, которые усиливают основной протокол.</p>
+        </div>
+
+        <div id="service-tabs" class="relative z-10 mt-10 flex flex-wrap justify-center gap-2" role="tablist" aria-label="Категории услуг">
+          <button type="button" class="tab-btn is-active rounded-full bg-white px-4 py-2.5 text-sm text-ink ring-1 ring-orange-200" data-category="cat-cleanse" onclick="openServiceTab('cat-cleanse')" aria-selected="true">Очищение кожи</button>
+          <button type="button" class="tab-btn rounded-full bg-white px-4 py-2.5 text-sm font-medium text-ink ring-1 ring-orange-200" data-category="cat-pro" onclick="openServiceTab('cat-pro')" aria-selected="false">Профессиональный уход</button>
+          <button type="button" class="tab-btn rounded-full bg-white px-4 py-2.5 text-sm font-medium text-ink ring-1 ring-orange-200" data-category="cat-lift" onclick="openServiceTab('cat-lift')" aria-selected="false">Коррекция овала и лифтинг</button>
+          <button type="button" class="tab-btn rounded-full bg-white px-4 py-2.5 text-sm font-medium text-ink ring-1 ring-orange-200" data-category="cat-problem" onclick="openServiceTab('cat-problem')" aria-selected="false">Проблемная кожа</button>
+          <button type="button" class="tab-btn rounded-full bg-white px-4 py-2.5 text-sm font-medium text-ink ring-1 ring-orange-200" data-category="cat-extra" onclick="openServiceTab('cat-extra')" aria-selected="false">Дополнительные системы</button>
+        </div>
+
+        <div id="cat-cleanse" class="tab-panel is-open mt-12" role="tabpanel">
+          <div class="mx-auto max-w-3xl text-center">
+            <h3 class="font-serif text-3xl sm:text-4xl">Очищение кожи</h3>
+            <p class="mt-4 text-sm leading-relaxed text-ink/70 sm:text-base">Удаление поверхностных загрязнений (пыль, пот, остатки косметики); удаление излишков себума, ороговевших клеток, подготовка кожи к дальнейшему уходу; укрепление гидролипидного барьера кожи.</p>
+          </div>
+          <div class="mt-10 grid gap-7 md:grid-cols-2">
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <!-- Картинка услуги «Пузырьковое очищение кожи»: images/bubble-clean.png -->
+              <img src="images/bubble-clean.png" alt="Пузырьковое очищение кожи" class="bubble-clean-photo h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«ПУЗЫРЬКОВОЕ ОЧИЩЕНИЕ КОЖИ»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Базовое очищение кожи.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">2 100 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <!-- Картинка услуги «СПА для лица»: images/spa-facial.png -->
+              <img src="images/spa-facial.png" alt="СПА для лица" class="spa-facial-photo h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«СПА ДЛЯ ЛИЦА»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Глубокое очищение пор, выведение токсинов, детокс кожи.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">2 900 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div id="cat-pro" class="tab-panel mt-12" role="tabpanel">
+          <div class="mx-auto max-w-3xl text-center">
+            <h3 class="font-serif text-3xl sm:text-4xl">Профессиональный уход</h3>
+            <p class="mt-4 text-sm leading-relaxed text-ink/70 sm:text-base">Профессиональные концентраты и сыворотки, аппаратные методики и глубина воздействия; решение конкретных проблем.</p>
+          </div>
+          <div class="mt-10 grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <!-- Картинка услуги «Супер увлажнение»: images/super-hydration.png -->
+              <img src="images/super-hydration.png" alt="Супер увлажнение" class="super-hydration-photo h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«СУПЕР УВЛАЖНЕНИЕ»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Эффект упругой кожи с влажным, слегка глянцевым сиянием (Dolphin skin).</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">2 100 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <!-- Картинка услуги «Сияние»: images/service-shining.png -->
+              <img src="images/service-shining.png" alt="Сияние" class="service-shining-photo h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«СИЯНИЕ»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Ритуал осветления кожи, эффект стеклянной кожи.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">2 100 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100 md:col-span-2 lg:col-span-1">
+              <!-- Картинка услуги «Шой-ду-ду увлажнение и питание»: images/service-shoydudu.png -->
+              <img src="images/service-shoydudu.png" alt="Шой-ду-ду увлажнение и питание" class="service-shoydudu-photo h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«ШОЙ-ДУ-ДУ УВЛАЖНЕНИЕ И ПИТАНИЕ»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Эффект замедления видимых возрастных процессов + пробуждение естественного сияния и тонуса.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">3 600 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div id="cat-lift" class="tab-panel mt-12" role="tabpanel">
+          <div class="mx-auto max-w-3xl text-center">
+            <h3 class="font-serif text-3xl sm:text-4xl">Коррекция овала лица и лифтинг</h3>
+            <p class="mt-4 text-sm leading-relaxed text-ink/70 sm:text-base">Стимуляция коллагеногенеза с эффектом подтяжки; повышение тургора и тонуса кожи.</p>
+          </div>
+          <div class="mt-10 grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <!-- Картинка услуги «Пилатес для лица»: images/service-pilates.png -->
+              <img src="images/service-pilates.png" alt="Пилатес для лица" class="h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«ПИЛАТЕС ДЛЯ ЛИЦА»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Лифтинг-эффект, восстановление тонуса и упругости кожи.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">2 800 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <div class="relative">
+                <!-- Картинка флагманской услуги «Сияющий взгляд»: images/service-shining-gaze.png -->
+                <img src="images/service-shining-gaze.png" alt="Сияющий взгляд" class="h-56 w-full object-cover">
+                <span class="flag-badge absolute left-4 top-4 rounded-full bg-orange-600 px-3 py-1 text-[11px] font-semibold uppercase text-white shadow-sm">Флагман</span>
+              </div>
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«СИЯЮЩИЙ ВЗГЛЯД»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Эффект-Pro‑Xylane, восстановление тонуса и упругости кожи вокруг глаз, выравнивание тона в зоне под глазами.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">4 500 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100 md:col-span-2 lg:col-span-1">
+              <div class="relative">
+                <!-- Картинка флагманской услуги «4D коллагеновый лифтинг»: images/service-collagen-4d.png -->
+                <img src="images/service-collagen-4d.png" alt="4D коллагеновый лифтинг" class="h-56 w-full object-cover">
+                <span class="flag-badge absolute left-4 top-4 rounded-full bg-orange-600 px-3 py-1 text-[11px] font-semibold uppercase text-white shadow-sm">Флагман</span>
+              </div>
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«<span class="whitespace-nowrap">4D</span> КОЛЛАГЕНОВЫЙ ЛИФТИНГ»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Эффект выраженного лифтинга, глубокого восстановления кожи, стимуляция выработки синтеза коллагена и эластина, улучшения плотности и чёткости овала лица.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">5 600 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div id="cat-problem" class="tab-panel mt-12" role="tabpanel">
+          <div class="mx-auto max-w-3xl text-center">
+            <h3 class="font-serif text-3xl sm:text-4xl">Профессиональный уход за проблемной кожей</h3>
+            <p class="mt-4 text-sm leading-relaxed text-ink/70 sm:text-base">Анти-акне, сужение пор, снятие воспалений, успокоение кожи, антистресс кожи, контроль выработки себума.</p>
+          </div>
+          <div class="mt-10 mx-auto grid max-w-xl gap-7">
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <div class="relative">
+                <!-- Картинка флагманской услуги «Себоконтроль»: images/service-sebocontrol.png -->
+                <img src="images/service-sebocontrol.png" alt="Себоконтроль" class="service-sebocontrol-photo h-64 w-full object-cover">
+                <span class="flag-badge absolute left-4 top-4 rounded-full bg-orange-600 px-3 py-1 text-[11px] font-semibold uppercase text-white shadow-sm">Флагман</span>
+              </div>
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«СЕБОКОНТРОЛЬ»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Противовоспалительный эффект, успокоение и восстановление проблемной кожи.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">5 900 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div id="cat-extra" class="tab-panel mt-12" role="tabpanel">
+          <div class="mx-auto max-w-3xl text-center">
+            <h3 class="font-serif text-3xl sm:text-4xl">Дополнительные системы к основным процедурам</h3>
+            <p class="mt-4 text-sm leading-relaxed text-ink/70 sm:text-base">Целенаправленные методики, аппараты или составы, которые подключают к основному протоколу, чтобы усилить или закрепить результат.</p>
+          </div>
+          <div class="mt-10 grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <!-- Картинка услуги «Йога для лица»: загрузите файл images/service-10.jpg (4:3, 1200×900, массаж лица / снятие мышечного напряжения) -->
+              <img src="images/service-face-yoga.jpg" alt="Йога для лица" class="h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«ЙОГА ДЛЯ ЛИЦА»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Авторская методика массажа от Face Wash Bear с эффектом разблокировки напряжения мышц лица.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">1 500 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100">
+              <!-- Картинка услуги «Уход зоны декольте и шеи»: images/service-neck-decollete.png -->
+              <img src="images/service-neck-decollete.png" alt="Уход зоны декольте и шеи" class="h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«УХОД ЗОНЫ ДЕКОЛЬТЕ И ШЕИ»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Авторская методика массажа зоны платизмы от Face Wash Bear с эффектом снятия гипертонуса мышц шеи; поддержание четкости овала.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">1 500 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+            <article class="service-card overflow-hidden rounded-[1.8rem] bg-white ring-1 ring-orange-100 md:col-span-2 lg:col-span-1">
+              <!-- Картинка услуги «Шелковое прикосновение рук»: images/service-silk-hands.png -->
+              <img src="images/service-silk-hands.png" alt="Шелковое прикосновение рук" class="h-56 w-full object-cover">
+              <div class="p-7">
+                <h4 class="font-serif text-2xl leading-snug">«ШЕЛКОВОЕ ПРИКОСНОВЕНИЕ РУК»</h4>
+                <p class="mt-3 text-sm leading-relaxed text-ink/70">Коррекция возрастных изменений кожи кистей, стимуляция регенеративных процессов и синтеза коллагена в коже рук.</p>
+                <p class="mt-5 font-serif text-4xl text-orange-800">1 300 ₽</p>
+                <a href="tel:+79193827537" class="btn-primary mt-6 inline-flex rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="order-form" class="px-5 py-20 lg:px-8 lg:py-28">
+      <div class="order-form-card">
+        <div class="order-form-grid">
+          <div class="order-form-media">
+            <img src="images/serum.png" alt="Сыворотка FACE WASH BEAR" class="order-form-photo">
+          </div>
+          <div class="order-form-content">
+            <h2 class="font-serif text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">Влюбите себя в собственное отражение</h2>
+            <p class="mt-5 leading-relaxed text-ink/75">Запишитесь на первый смарт-уход под ключ. Оставьте контакты, и мы подберем удобное время.</p>
+            <form action="https://formsubmit.co/ajax/elena@face-wash-bear.ru" method="POST">
+              <input type="hidden" name="_subject" value="Заявка с сайта FACE WASH BEAR">
+              <input type="text" name="name" required placeholder="Ваше имя" autocomplete="name">
+              <input type="tel" name="phone" required placeholder="+7 (_) _--" pattern="^(\+7|8)?\s?\(?\d{3}\)?\s?\d{3}-?\d{2}-?\d{2}$" title="Пожалуйста, введите корректный номер телефона" autocomplete="tel" inputmode="tel">
+              <button type="submit" class="btn-primary inline-flex items-center justify-center rounded-full bg-orange-700 px-5 py-2.5 text-sm font-semibold text-white">Записаться на процедуру</button>
+            </form>
+            <p class="order-form-legal">Нажимая на кнопку, вы даете согласие на обработку персональных данных</p>
+          </div>
+        </div>
+      </div>
+      <div id="cookie-local-popup">
+        <p>Мы используем файлы cookie для улучшения работы сайта. Оставаясь на нашем ресурсе, вы соглашаетесь с условиями обработки данных.</p>
+        <button type="button" id="cookie-local-ok">Принять</button>
+      </div>
+      <script>
+        (function () {
+          var popup = document.getElementById("cookie-local-popup");
+          var ok = document.getElementById("cookie-local-ok");
+          if (!popup || !ok) return;
+          if (window.localStorage.getItem("cookie_form_accepted") === "true") {
+            popup.style.display = "none";
+            return;
+          }
+          ok.addEventListener("click", function () {
+            window.localStorage.setItem("cookie_form_accepted", "true");
+            popup.style.display = "none";
+          });
+        })();
+      </script>
+      <div id="order-form-thanks" class="order-form-thanks" hidden>
+        <div class="order-form-thanks__card" role="dialog" aria-live="polite">
+          <p>Спасибо, мы приняли ваше обращение</p>
+          <button type="button" id="order-form-thanks-close">Закрыть</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="map" class="bg-white/70 px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto grid max-w-site items-stretch gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+        <div class="reveal flex flex-col justify-center">
+          <p class="mb-3 text-xs uppercase tracking-[0.2em] text-orange-700">Доверие</p>
+          <h2 class="font-serif text-3xl font-semibold sm:text-4xl">Гости выбирают нас снова</h2>
+          <p class="mt-5 leading-relaxed text-ink/75">
+            У нас рейтинг 5.0 на Яндекс Картах на основе десятков отзывов. Гости отмечают бережность процедур, чистоту, спокойную атмосферу и результат, который видно сразу — без боли и восстановления.
+          </p>
+          <div class="rating-glow mt-8 inline-flex w-fit flex-col rounded-[1.6rem] bg-orange-700 px-8 py-6 text-white">
+            <span class="text-sm uppercase tracking-[0.18em] text-white/70">Яндекс Карты</span>
+            <span class="mt-1 font-serif text-5xl">Рейтинг 5.0</span>
+            <span class="mt-2 text-2xl tracking-[0.2em]" aria-label="Пять звёзд">★★★★★</span>
+          </div>
+          <p class="mt-8 text-sm text-ink/60">Екатеринбург, ул. Академика Шварца, 17, ТЦ «Дирижабль», 2 этаж</p>
+        </div>
+
+        <div class="reveal">
+          <div class="overflow-hidden rounded-[1.8rem] bg-orange-100 ring-1 ring-orange-200">
+            <!-- Интерактивная карта: Екатеринбург, ул. Академика Шварца, 17 -->
+            <iframe
+              title="Салон Умывающийся Панда на Яндекс Картах"
+              src="https://yandex.ru/map-widget/v1/?ll=60.627345%2C56.796701&z=16&l=map&pt=60.627345,56.796701,pm2dgl"
+              width="100%"
+              height="420"
+              frameborder="0"
+              allowfullscreen
+              class="block min-h-[320px] w-full bg-orange-100"
+            ></iframe>
+          </div>
+          <a
+            href="https://yandex.ru/maps/?rtext=~56.796701,60.627345&rtt=auto"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary mt-5 inline-flex w-full items-center justify-center rounded-full bg-orange-700 px-6 py-3.5 text-sm font-semibold text-white sm:w-auto"
+          >
+            Проложить маршрут
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto max-w-site">
+        <div class="reveal mx-auto max-w-2xl text-center">
+          <p class="mb-3 text-xs uppercase tracking-[0.2em] text-orange-700">Отзывы</p>
+          <h2 class="font-serif text-3xl font-semibold sm:text-4xl lg:text-5xl">Слова наших гостей</h2>
+        </div>
+
+        <div class="mt-14 grid gap-6 md:grid-cols-2">
+          <article class="review-card reveal rounded-[1.8rem] bg-white p-7 ring-1 ring-orange-100">
+            <div class="flex items-center gap-4">
+              <!-- Фото / аватар клиента Елены Важениной: загрузите файл images/avatar-1.jpg (квадрат 200×200, портрет) -->
+              <img src="images/avatar-1.jpg" onerror="this.onerror=null;this.src='https://picsum.photos/seed/client-elena/200/200'" alt="Елена Важенина" class="h-14 w-14 rounded-full object-cover">
+              <div>
+                <h3 class="font-medium">Елена Важенина</h3>
+                <p class="text-xs text-orange-700">★★★★★ · Яндекс Карты</p>
+              </div>
+            </div>
+            <p class="mt-5 leading-relaxed text-ink/75">Очень бережный уход, без боли и агрессии. Кожа после процедуры мягкая и свежая, как после хорошего сна. Атмосфера спокойная, мастер объясняет каждый шаг. Теперь это мой ритуал в Дирижабле.</p>
+          </article>
+
+          <article class="review-card reveal rounded-[1.8rem] bg-white p-7 ring-1 ring-orange-100">
+            <div class="flex items-center gap-4">
+              <!-- Фото / аватар клиента Екатерины Тетёркиной: загрузите файл images/avatar-2.jpg (квадрат 200×200, портрет) -->
+              <img src="images/avatar-2.jpg" onerror="this.onerror=null;this.src='https://picsum.photos/seed/client-ekaterina/200/200'" alt="Екатерина Тетёркина" class="h-14 w-14 rounded-full object-cover">
+              <div>
+                <h3 class="font-medium">Екатерина Тетёркина</h3>
+                <p class="text-xs text-orange-700">★★★★★ · Яндекс Карты</p>
+              </div>
+            </div>
+            <p class="mt-5 leading-relaxed text-ink/75">Пришла с жирным блеском и тусклым цветом лица. Сделали себоконтроль — кожа стала чище и ровнее уже в тот же день. Нравится, что здесь только лицо, без лишнего. Записалась на курс.</p>
+          </article>
+
+          <article class="review-card reveal rounded-[1.8rem] bg-white p-7 ring-1 ring-orange-100">
+            <div class="flex items-center gap-4">
+              <!-- Фото / аватар клиента Светланы Лоскутовой: загрузите файл images/avatar-3.jpg (квадрат 200×200, портрет) -->
+              <img src="images/avatar-3.jpg" onerror="this.onerror=null;this.src='https://picsum.photos/seed/client-svetlana/200/200'" alt="Светлана Лоскутова" class="h-14 w-14 rounded-full object-cover">
+              <div>
+                <h3 class="font-medium">Светлана Лоскутова</h3>
+                <p class="text-xs text-orange-700">★★★★★ · Яндекс Карты</p>
+              </div>
+            </div>
+            <p class="mt-5 leading-relaxed text-ink/75">Долго искала уход без уколов. Здесь всё мягко, чисто и по делу. После увлажнения лицо «напилось», макияж ложится лучше. Удобно заскочить в ТЦ даже в обед — процедура не выбивает из графика.</p>
+          </article>
+
+          <article class="review-card reveal rounded-[1.8rem] bg-white p-7 ring-1 ring-orange-100">
+            <div class="flex items-center gap-4">
+              <!-- Фото / аватар клиента Лоры Изюровой: загрузите файл images/avatar-4.jpg (квадрат 200×200, портрет) -->
+              <img src="images/avatar-4.jpg" onerror="this.onerror=null;this.src='https://picsum.photos/seed/client-lora/200/200'" alt="Лора Изюрова" class="h-14 w-14 rounded-full object-cover">
+              <div>
+                <h3 class="font-medium">Лора Изюрова</h3>
+                <p class="text-xs text-orange-700">★★★★★ · Яндекс Карты</p>
+              </div>
+            </div>
+            <p class="mt-5 leading-relaxed text-ink/75">Сервис на уровне большой сети: встречают спокойно, всё стерильно, запахи лёгкие. Лифтинг-уход дал красивый тонус без отёков. Рекомендую тем, кто устал от агрессивной косметологии.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="franchise" class="bg-white/70 px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto grid max-w-site items-center gap-12 lg:grid-cols-2">
+        <div>
+          <h2 class="font-serif text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
+            FACE WASH BEAR: Масштабируйте глобальный бьюти-бизнес вместе с нами
+          </h2>
+          <p class="mt-5 font-serif text-xl font-semibold leading-snug text-orange-700 sm:text-2xl">
+            Мы открыты к сотрудничеству и готовы к запуску салонов в других городах.
+          </p>
+          <div class="mt-8 space-y-5 text-base leading-relaxed text-ink/80 sm:text-lg">
+            <p>
+              «Умывающийся Панда» — это международный бренд будущего, объединяющий более 4000 успешных филиалов по всему миру. Мы доказали эффективность нашей бизнес-модели, заслужив безупречный рейтинг 5.0 и любовь тысяч клиентов.
+            </p>
+            <p>
+              Если вы хотите запустить прибыльный, высокотехнологичный бизнес в сфере смарт-косметологии без боли, уколов и медицинских лицензий — давайте расти вместе. Мы передаем готовые стандарты, эксклюзивные протоколы процедур, премиальную косметическую линию и полную поддержку на всех этапах.
+            </p>
+            <p>
+              Хотите открыть свой салон в своем городе и стать нашими компаньонами? Обращайтесь — мы открыты к партнерству!
+            </p>
+          </div>
+          <a href="tel:+79193827537" class="btn-primary mt-10 inline-flex items-center justify-center rounded-full bg-orange-700 px-8 py-4 text-sm font-semibold text-white sm:text-base">
+            Обсудить партнерство в городах
+          </a>
+        </div>
+        <div class="partnership-visual overflow-hidden">
+          <!-- Фото ресепшена для блока партнерства: images/partnership-reception.png -->
+          <img
+            src="img/franchise-salon.png"
+            alt="Ресепшен салона FACE WASH BEAR"
+            class="partnership-photo"
+          >
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacts" class="border-t border-orange-100 bg-orange-800 px-5 pb-28 pt-16 text-white lg:px-8 lg:pb-12">
+    <div class="mx-auto grid max-w-site gap-12 md:grid-cols-3">
+      <div>
+        <p class="text-xs uppercase tracking-[0.2em] text-orange-200">Face Wash Bear</p>
+        <p class="mt-2 font-serif text-3xl">Умывающийся Панда</p>
+        <p class="mt-4 max-w-xs text-sm leading-relaxed text-white/70">Профессиональный уход за лицом в Екатеринбурге. Чистота, свежесть и регулярная забота о коже.</p>
+      </div>
+      <div>
+        <h2 class="font-serif text-2xl">Контакты</h2>
+        <a href="tel:+79193827537" class="phone-link mt-4 block text-lg text-white hover:text-orange-200">+7 (919) 382-75-37</a>
+        <p class="mt-3 text-sm leading-relaxed text-white/70">Екатеринбург, ул. Академика Шварца, 17<br>ТЦ «Дирижабль», 2 этаж<br>Ежедневно 10:00–22:00</p>
+      </div>
+      <div class="md:text-right">
+        <!-- Подставьте ссылку на группу ВКонтакте вместо https://vk.com -->
+        <a href="https://vk.ru/club237378703" target="_blank" rel="noopener noreferrer" class="inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-orange-800 transition hover:bg-orange-100">
+          Подписаться на VK
+        </a>
+      </div>
+    </div>
+    <div class="mx-auto mt-12 max-w-site border-t border-white/10 pt-6 text-xs text-white/50">
+      ИП Будницкая Е.В., ИНН 667478967966
+    </div>
+  </footer>
+
+  <div id="mobile-cta" class="mobile-cta fixed inset-x-4 bottom-4 z-50 lg:hidden">
+    <a href="tel:+79193827537" class="flex items-center justify-center rounded-full bg-orange-700 px-5 py-3.5 text-sm font-semibold text-white shadow-xl shadow-orange-800/30">
+      Записаться · +7 (919) 382-75-37
+    </a>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    function openServiceTab(categoryId) {
+      var buttons = document.querySelectorAll(".tab-btn");
+      var panels = document.querySelectorAll(".tab-panel");
+      for (var i = 0; i < buttons.length; i++) {
+        var on = buttons[i].getAttribute("data-category") === categoryId;
+        buttons[i].classList.toggle("is-active", on);
+        buttons[i].setAttribute("aria-selected", on ? "true" : "false");
+      }
+      for (var j = 0; j < panels.length; j++) {
+        panels[j].classList.toggle("is-open", panels[j].id === categoryId);
+      }
+    }
+
+    openServiceTab("cat-cleanse");
+  </script>
+
+  <aside id="cookies-widget" class="cookies-widget" hidden>
+    <div class="cookies-widget__card">
+      <p class="cookies-widget__title">Cookies</p>
+      <p class="cookies-widget__text">Мы используем файлы cookie для улучшения работы сайта. Оставаясь на нашем ресурсе, вы соглашаетесь с условиями обработки данных.</p>
+      <button type="button" id="cookies-accept" class="cookies-widget__btn">Принять</button>
+    </div>
+  </aside>
+</body>
+</html>
