@@ -91,24 +91,29 @@
 
     const nameInput = form.querySelector('input[name="name"]');
     const button = form.querySelector('button[type="submit"]');
-    const name = nameInput ? nameInput.value.trim() : "";
-    const phoneValue = phone.value.trim();
-    const whatsapp = (form.getAttribute("data-whatsapp") || "79193827537").replace(/\D/g, "");
-    const text = [
-      "Заявка с сайта FACE WASH BEAR",
-      "Имя: " + name,
-      "Телефон: " + phoneValue
-    ].join("\n");
-
     if (button) button.disabled = true;
-    window.open(
-      "https://wa.me/" + whatsapp + "?text=" + encodeURIComponent(text),
-      "_blank",
-      "noopener,noreferrer"
-    );
-    form.reset();
-    showThanks();
-    if (button) button.disabled = false;
+
+    fetch(form.action, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: JSON.stringify({
+        name: nameInput ? nameInput.value : "",
+        phone: phone.value,
+        _subject: "Заявка с сайта FACE WASH BEAR"
+      })
+    })
+      .then(function (response) {
+        if (response.ok) {
+          form.reset();
+          showThanks();
+        }
+      })
+      .finally(function () {
+        if (button) button.disabled = false;
+      });
   });
 })();
 
